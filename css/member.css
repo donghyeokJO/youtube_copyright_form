@@ -1,0 +1,14 @@
+#member_area {
+  max-width: 517px;
+  padding: 59px 0;
+}
+.member_input_area {
+  padding: 38px 52px;
+}
+#search_post_box {
+  position: absolute;
+  z-index: 101;
+  left: -29px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}

@@ -1,0 +1,298 @@
+article#article_01 {
+  display: flex;
+  justify-content: center;
+}
+article#article_01 > div {
+  width: 1024px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article#article_01 .title{
+  font-size: 36px;
+}
+article#article_01 .desc{
+  margin-top:29px;
+  font-size: 18px;
+}
+article#article_01 .image{
+  border: 1px solid #707070;
+  height: 274px;
+}
+section#second_section {
+  background-color: #ecf2fc;
+}
+article#article_02 > div {
+  padding: 30px 20px 36px 20px;
+}
+article#article_02 > div .tag{
+  margin-right: 10px;
+  margin-top: 20px;
+}
+article#article_02 > div .tag:last-child {
+  margin-right: 0px;
+}
+article#article_02 > div .desc {
+  margin-top: 34px;
+}
+article#article_02 > div .link {
+  color: #2f7cf7;
+  font-weight: bold;
+  margin-top: 8px;
+}
+section#third_section {
+  background-color: #f2f7fc;
+}
+article#article_03 > div {
+  padding: 30px 20px 36px 20px;
+}
+article#article_03 > div .title {
+  color: #5f5f5f;
+}
+article#article_03 > div .title > b {
+  color: #2b2b2b;
+}
+article#article_03 > div .subtitle {
+  margin-top: 13px;
+} 
+article#article_03 > div .image_area {
+  display: flex;
+  justify-content: space-between;
+}
+article#article_03 > div .image_area > img {
+  width: 23%;
+}
+article#article_04 {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+article#article_04 > div {
+  width: 1024px;
+  padding: 30px 20px 36px 20px;
+}
+article#article_04 > div > .desc {
+  font-size: 18px;
+  margin-top: 15px;
+}
+article#article_04 > div > .step_area {
+  margin-top: 43px;
+}
+article#article_05, article#article_06, article#article_07, article#article_08 {
+  margin-top: 40px !important;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  padding: 20px 33px;
+}
+article#article_05 > .title, article#article_06 > .title, article#article_07 > .title, article#article_08 .title {
+  font-size: 36px;
+  margin-top: 25px;
+}
+article#article_05 > .desc, article#article_07 > .desc, article#article_08 .desc {
+  font-size: 14px;
+  margin-top: 21px;
+}
+article#article_05 > #map {
+  height: 352px;
+  margin-top: 21px;
+}
+article#article_05 .chart_area {
+  border-radius: 5px;
+  background-color: #f0f7fc;
+  text-align: center;
+  margin-top: 15px;
+  padding: 25px;
+}
+article#article_05 .chart_area > .title {
+  color: #707070;
+}
+article#article_05 .chart_area > .chart {
+  margin-top: 10px;
+}
+article#article_05 .chart_area > .chart > div {
+  height: 276px;
+  padding: 14px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+article#article_05 .chart_area > .chart > div > .title {
+  font-size: 15px;
+  color: #707070;
+}
+article#article_05 .chart_area > .chart > div > .total {
+  font-size: 27px;
+  color: #707070;
+  font-weight: 100;
+  margin-top: 80px;
+}
+article#article_05 .chart_area > .chart > div > .total > span {
+  font-size: 40px;
+  color: #007fff;
+}
+article#article_06 > .image {
+  width: 100%;
+  height: 177px;
+  background-size: contain;
+  margin-top: 32px;
+}
+article#article_06 > .desc {
+  margin-top: 8px; 
+}
+article#article_07 > .button_area {
+  margin: 20px 15px !important;
+}
+article#article_08 .item > svg {
+  width: 31px;
+  height: 31px;
+  fill: #007fff;
+}
+article#article_08 .item .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+article#article_08 .item hr {
+  border: 4px solid #eee;
+  width: 51px;
+  margin-left: 0;
+  margin-top: 21px;
+}
+section#fifth_section {
+  background-color: #efefef;
+}
+section#fifth_section > article.slideUp {
+  position: relative;
+  top: 150px;
+  opacity: 0.2;
+  -webkit-transition: top 2s, opacity 2s;
+  transition: top 2s, opacity 2s;
+}
+section#fifth_section > article.slideUp.up {
+  top: 0;
+  opacity: 1;
+}
+article#article_09 {
+  max-width: 1024px;
+  margin: auto;
+}
+article#article_09 > .title {
+  border-bottom: 4px solid #a8a8a8;
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 36px;
+  margin-left: 10px;
+}
+article#article_09 .item {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border-top: 7px solid #0062ff; 
+  padding: 26px 23px;
+}
+article#article_09 .item .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+article#article_09 .item .title_right {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f7a22f;
+}
+section#sixth_section {
+  background-color: #2b2b2b;
+}
+article#article_10 {
+  margin: auto;
+  padding: 90px 15px;
+  color:#fff;
+  max-width: 1024px;
+}
+article#article_10 .title {
+  font-size: 36px;
+}
+article#article_10 .desc {
+  margin-top: 26px;
+}
+article#article_10 .button4 {
+  margin-top: 12px;
+}
+section#seventh_section {
+  background-color: #ecf2fc;
+}
+article#article_11 {
+  max-width: 1024px;
+  padding: 29px 20px;
+  margin: auto;
+}
+article#article_11 .title {
+  font-size: 18px;
+}
+article#article_11 .link {
+  font-size: 18px;
+}
+input.search {
+  border-radius: 20px;
+  border: solid 1px #2b2b2b;
+  padding: 8px 20px 8px 45px;;
+}
+.header_title_height {
+  height: 250px;
+}
+.faq_area:last-child table {
+  border-bottom: 1px solid #2b2b2b;
+}
+/* tablet */
+@media (min-width: 801px) and (max-width: 1024px) {
+}
+/* mobile */
+@media (max-width: 800px) {
+  article#article_01 .image{
+    margin-top: 24px;
+  }
+  article#article_04 > div > .desc {
+    font-size: 12px;
+  }
+  #fifth_section {
+    padding: 0 20px;
+  }
+  article#article_05 > .title, article#article_06 > .title, article#article_07 > .title, article#article_08 .title {
+    font-size: 18px;
+  }
+  article#article_05 > .desc, article#article_07 > .desc, article#article_08 .desc {
+    font-size: 12px;
+  }
+  article#article_06 > .image {
+    height: 60px;
+  }
+  article#article_07 > .button_area {
+    width: 100%;
+  }
+  article#article_08 .item > div {
+    display: inline-block;
+    width: calc(100% - 40px);
+    padding-left: 18px;
+    vertical-align: top;
+  }
+  article#article_08 .item .title {
+    margin-top: 0;
+  }
+  article#article_09 > .title {
+    font-size: 18px;
+  }
+  article#article_09 .item .title {
+    font-size: 24px;
+  }
+  article#article_10 .title {
+    font-size: 24px;
+  }
+  article#article_10 .desc {
+    font-size: 12px;
+  }
+  article#article_11 .link {
+    font-size: 12px;
+    margin-bottom: 22px;
+  }
+  .header_title_height {
+    height: 90px;
+  }
+}

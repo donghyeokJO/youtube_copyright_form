@@ -1,0 +1,162 @@
+#nav_small,
+#nav_small_02 {
+  -webkit-transition: left 0.6s;
+  transition: left 0.6s;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  left: -302px;
+  top: 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-top: 5px solid #2f7cf7;
+  background-color: #fff;
+  z-index: 201;
+}
+
+#nav_small_02 {
+  width: 383px;
+  left: -385px;
+  border-top: 0;
+  background-color: #efefef;
+  z-index: 51;
+}
+
+#nav_small.open,
+#nav_small_02.open {
+  left: 0px;
+}
+
+#nav_small_02.open .button5>svg {
+  transform: rotate(180deg);
+}
+
+#nav_small>div {
+  padding: 21px 20px;
+}
+
+#nav_small .title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav_small .progress_bar {
+  margin-top: 37px;
+}
+
+#nav_small .category {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#nav_small .link {
+  margin-top: 2px;
+}
+
+#nav_small .member {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+  margin-bottom: 27px;
+  position: relative;
+}
+
+#nav_small .member>div {
+  width: 74px;
+}
+
+#nav_small .member>div>div {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 11px;
+}
+
+#nav_small .member>div>div.image {
+  width: 100%;
+  height: 74px;
+  border: 1px solid #707070;
+}
+
+#nav_small .category_area {
+  margin-top: 2px;
+}
+
+#nav_small .category_area .category {
+  margin-top: 16px;
+}
+
+#nav_small .category_area .category:last-child {
+  margin-bottom: 16.5px;
+}
+
+#nav_small .close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  cursor: pointer;
+}
+
+#nav_small_02 .button5 {
+  position: absolute;
+  right: -45px;
+  top: 200px;
+  background-color: #efefef;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.16);
+}
+
+footer {
+  color: #fff;
+}
+
+#footer_01 {
+  background-color: #383838;
+  padding: 15px;
+}
+
+#footer_01>div,
+#footer_02>div {
+  max-width: 1024px;
+  margin: auto;
+}
+
+#footer_01>div>div {
+  text-align: center;
+  border-right: 1px solid #fff;
+  margin: 2px 0;
+}
+
+#footer_01>div>div:last-child {
+  border-right: 0;
+}
+
+#footer_02 {
+  background-color: #242424;
+  padding: 32px 0;
+  position: relative;
+}
+
+#member_desc {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #dedede;
+  width: 360px;
+  right: 7px;
+  top: 85px;
+  z-index: 70;
+  color: #2b2b2b;
+}
+
+#member_desc>div:first-child {
+  padding: 25px 30px;
+}
+
+/* tablet */
+@media (min-width: 801px) and (max-width: 1024px) {}
+
+/* mobile */
+@media (max-width: 800px) {
+  #nav_wide {
+    display: none;
+  }
+}
